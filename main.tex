@@ -1,0 +1,304 @@
+% Welcome to the simple Undergraduate Complexity Research CV-resume template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[ colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+\usepackage[margin=0.4in,top=0.4in, ]{geometry}
+%\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.in}
+\addtolength{\evensidemargin}{0.5in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0in}
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \it\vspace{-5pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+      \textit{\small #5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-10pt}
+}
+\newcommand{\resumeSubheadingZero}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    {\LARGE Ewan Chamberlain} \\ \vspace{0pt}
+    \begin{multicols}{2}
+    \begin{flushleft}
+    \large{07443533205} \\
+    \large{Leamington Spa, Warwickshire} 
+    \end{flushleft}
+    
+    \begin{flushright}
+% this could be LinkedIn, GitHub, or a personal website or social media account (if used for professional purposes)
+    \href{https://www.linkedin.com/in/ewanchamberlain/}{\large{https://www.linkedin.com/in/ewanchamberlain/}} \\
+    \href{https://github.com/eac83}{\large{https://github.com/eac83}}\\
+% please ensure your email address is one you check
+    \href{mailto:{ewanachamberlain@gmail.com}}{\large{ewanachamberlain@gmail.com}}
+   
+    \end{flushright}
+    \end{multicols}
+\end{center}
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for GPA, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheadingTwo
+        {University of Cambridge, Robinson College}{10/2019 -- 07/2021}
+        {MSci in Astrophysics}{1st Class with Distinction}
+        {BA (Hons) in Natural Sciences}{1st Class}
+%\begin{comment}
+    \resumeSubheading
+        {King Edward VI School}{September 2012 -- July 2019}
+        {A-Level Mathematics, Further Mathematics, Physics, Chemistry}{A*A*A*A*}
+        %{GCSEs}{9,7,7,8 A*s,A}
+%\end{comment}
+\resumeSubHeadingListEnd%-----------RESEARCH EXPERIENCE-----------
+\section{Projects}
+% it is not expected that applicants have research experience but this section can include experience gained in a laboratory course, shadowing experiences, or group or independent research projects
+\resumeSubHeadingListStart
+
+\resumeSubheading
+        {Powerful AGN outflows at cosmic noon can solve the S8 tension?}{10/2022 -- Present}
+        {Master's Project}{}
+      \resumeItemListStart
+        \small\resumeItem{Exploring powerful AGN outflows to see if these can help solve the \(S_8\) tension.}
+        \resumeItem{Reviewing literature around baryonic effects on the matter power spectrum.}
+        \resumeItem{Running simulations and analysing and transforming simulation data of over 100 million particles in Python with HPC.}
+    \resumeItemListEnd
+\resumeSubheading
+        {CATAM II}{10/2022 -- 05/2022}
+        {Part II Astrophysics Computational Projects}{}
+        \resumeItemListStart
+            \small\resumeItem{Completed two independent computational projects in MATLAB about different areas in Astrophysics.}
+            \resumeItem{\textbf{Cosmological Distances}: Computed distances as functions of redshift in different cosmologies, and comoving volumes of 114 quasars.}
+            \resumeItem{\textbf{Accretion Disks}: Evolved an accretion disk orbiting a massive object for \(10^7\) time steps.}
+        \resumeItemListEnd
+\resumeSubheading
+        {Introduction to Computing}{01/2021 -- 03/2021}
+        {Part IB Physics B Course}{}
+        \resumeItemListStart
+            \small\resumeItem{Self-lead C++ course, learning through weekly projects. Projects of note are:}
+            \resumeItem{Plotted the trajectory of different hyperbolic orbits and created a movie of the orbits.}
+            \resumeItem{Calculated the evolution of 100 particles compressed by a piston.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------OTHER EXPERIENCE-----------
+\section{Experience}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+\resumeSubheading
+        {Webmaster}{06/2022 -- Present}
+        {Robinson College Video Game Society}{}
+    \resumeItemListStart
+        \small\resumeItem{Updating society website with HTML by connecting to a remote server with SSH.}
+        \resumeItem{Built and maintained multiplayer servers using Linux and Bash.}
+        \resumeItem{Created an SQL database to store information on owned games.}
+    \resumeItemListEnd
+\begin{comment}
+    \resumeSubheading
+        {Treasurer}{June 2022 -- Present}
+        {Robinson College Video Game Society}{}
+    \resumeItemListStart
+        \small\resumeItem{Maintained society accounts}
+        \resumeItem{Run society events with the committee.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Chairperson}{June 2022 -- Present}
+        {Robinson College Board Game Society}{}
+    \resumeItemListStart
+        \small\resumeItem{Organised society meetings}
+        \resumeItem{Created Excel spreadsheet to maintain society funds.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Chairperson}{June 2022 -- Present}
+        {Robinson College RPG Society}{}
+\end{comment}
+    \resumeSubheading
+      {Finance Assistant}{Intermittent 07/2019 -- 09/2022}
+      {Calor Gas}{Warwick, United Kingdom}
+      \resumeItemListStart
+        \small\resumeItem{Performing a range of tasks in the Financial and Accounts Payable teams.}
+        \resumeItem{Processed an average of over 100 invoices each day with DocuSphere, and tank transfers with EnterpriseOne.}
+        \resumeItemListEnd
+
+\begin{comment}
+    \resumeSubheading
+        {Secretary}{June 2021 -- June 2022}
+        {Robinson College Video Game Society}{}
+    \resumeItemListStart
+        \small\resumeItem{Minuted the society's Annual General Meeting.}
+    \resumeItemListEnd
+\end{comment}  
+    \resumeSubheading
+      {Treasurer}{10/2021 -- 03/2022}
+      {Cambridge University Karate Club}{}
+      \resumeItemListStart
+        \small\resumeItem{Maintained treasury and accounts for the club using automated Excel spreadsheets.}
+        \resumeItem{Implemented a Python script to automate creating invoices for $\sim$100 members, saving over 2 hours per term.}
+        \resumeItem{Presented a summary of the accounts and a forecast into the nearby future at the Annual General Meeting.}
+        \resumeItemListEnd
+\begin{comment}
+    \resumeSubheading
+        {Crew Member}{October 2017 -- May 2020}
+        {McDonald's}{Leamington Spa, United Kingdom}
+    \resumeItemListStart
+        \small\resumeItem{Experience working in a high-paced dynamic environment}
+    \resumeItemListEnd
+\end{comment}
+\resumeSubHeadingListEnd
+
+%-----------RESEARCH PRESENTATIONS-----------
+%\section{Lecture Courses} 
+% It is not expected that applicants will have items for this section, but if you have presented or published research findings at, for example, a student research conference, please list those here.
+%\begin{itemize}[leftmargin=0.15in, label={}]
+%    \normalsize{\item{
+%    {citation in your preferred format -- include all authors who contributed}{} \\
+ %   {citation in your preferred format -- include all authors who contributed}{} 
+%}}
+ %\end{itemize}
+
+%-----------AWARDS & HONORS-----------
+\begin{comment}
+\section{Lecture Courses} 
+% This section can include academic achievements – things like scholarships, Dean's list, honors societies – as well as recognition in your community - community service, religious study, volunteerism, military service, or anything else. You can remove or add sections as needed.
+\resumeSubHeadingListStart
+    \resumeSubheadingZero
+    {Part III Astrophysics}{2022 -- 2023}
+    \resumeItemListStart
+        \small\resumeItem{Cosmology}
+        \resumeItem{Astophysical Fluid Dynamics}
+        \resumeItem{Modern Stellar Dynamics}
+        \resumeItem{General Relativity}
+        \resumeItem{Quantum Field Theory}
+    \resumeItemListEnd
+    Yet to take:
+    \resumeItemListStart
+        \small\resumeItem{The Life and Death of Galaxies}
+        \resumeItem{Astrophysical Black Holes}
+        \resumeItem{Dynamics of Astrophysical Discs}
+        \resumeItem{Field Theory in Cosmology}
+    \resumeItemListEnd
+    \resumeSubheadingZero
+    {Part II Astrophysics}{2021 -- 2022}
+    \resumeItemListStart
+        \small\resumeItem{Relativity}
+        \resumeItem{Astrophysical Fluid Dynamics}
+        \resumeItem{Introduction to Cosmology}
+        \resumeItem{Structure and Evolution of Stars}
+        \resumeItem{Statistical Mechanics}
+        \resumeItem{Principles of Quantum Mechanics}
+        \resumeItem{Stellar Dynamics and Structure of Galaxies}
+        \resumeItem{Topics in Astrophysics}
+    \resumeItemListEnd
+
+    \resumeSubheadingZero
+    {Part IB Natural Sciences}{2020 -- 2021}
+    \resumeItemListStart
+        \small\resumeItem{Physics A}
+        \resumeItem{Physics B}
+        \resumeItem{Chemical A}
+    \resumeItemListEnd
+
+    \resumeSubheadingZero
+    {Part IA Natural Sciences}{2019 -- 2020}
+    \resumeItemListStart
+        \small\resumeItem{Mathematics B}
+        \resumeItem{Physics}
+        \resumeItem{Chemistry}
+        \resumeItem{Materials Science}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\end{comment}
+%-----------SKILLS-----------
+\section{Skills and Awards}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Programming Languages and Technologies}{: Python, Numpy, Matplotlib, Pandas, Jupyter, C++, Linux, Bash, Excel} \\
+     \textbf{Foreign Languages}{: Spanish (intermediate, GCSE A*)}\\
+     \textbf{Public Speaking}{: LAMBDA Gold, Grade 8} \\
+     Robinson College Prize and College Scholarship.
+    }}
+ \end{itemize}
+ 
+ %-----------OTHER INTERESTS-----------
+\section{Other Interests}
+% Also an optional section, for any hobbies, sports, artistic and musical pursuits, etc. that you would like to include. You can include as many or as few as you like: delete or add as needed. 
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Karate}{: 2nd Dan black belt, competed for University team at national competitions. Instructor for the University club.} \\
+      %\textbf{Other heading}{: {the thing you want to include} } \\
+      \textbf{Piano}{: Grade 3, Trinity College}
+    }}    
+ \end{itemize}
+
+\end{document}
