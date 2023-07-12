@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1689170590 "/home/ewan/CV/main.tex" "/home/ewan/CV/main.pdf" "main" 1689170591
+["pdflatex"] 1689171713 "/home/ewan/CV/main.tex" "/home/ewan/CV/main.pdf" "main" 1689171714
   "/etc/texmf/web2c/texmf.cnf" 1689169278 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ewan/CV/main.aux" 1689170591 1255 3253a518faf5d716a17f484f43c9bf71 ""
-  "/home/ewan/CV/main.tex" 1689170589 12975 ef9d01505c9d9129ae98e731ff397dd3 ""
+  "/home/ewan/CV/main.aux" 1689171714 1255 3253a518faf5d716a17f484f43c9bf71 ""
+  "/home/ewan/CV/main.tex" 1689171713 12972 22cb9733f8606cfeb4a60cb634b7e0ba ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -90,13 +90,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1689169488 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1689169543 8277541 e56e71f0839ecc2da6e4774cf521550d ""
-  "main.aux" 1689170591 1255 3253a518faf5d716a17f484f43c9bf71 "pdflatex"
-  "main.out" 1689170591 234 9b4aaf9142ac35c330dc01fe7a76446b "pdflatex"
-  "main.tex" 1689170589 12975 ef9d01505c9d9129ae98e731ff397dd3 ""
+  "main.aux" 1689171714 1255 3253a518faf5d716a17f484f43c9bf71 "pdflatex"
+  "main.out" 1689171714 234 9b4aaf9142ac35c330dc01fe7a76446b "pdflatex"
+  "main.tex" 1689171713 12972 22cb9733f8606cfeb4a60cb634b7e0ba ""
   (generated)
+  "/home/ewan/CV/main.pdf"
+  "main.pdf"
+  "main.aux"
   "/home/ewan/CV/main.log"
   "main.out"
-  "main.aux"
-  "main.pdf"
-  "/home/ewan/CV/main.pdf"
   "main.log"
